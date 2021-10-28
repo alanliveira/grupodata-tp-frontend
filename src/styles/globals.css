@@ -1,0 +1,8 @@
+body,
+html {
+	@apply font-red-rose;
+}
+
+svg {
+	@apply object-cover md:object-scale-down;
+}
