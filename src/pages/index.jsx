@@ -20,11 +20,12 @@ export default function Home() {
 			</Head>
 
 			<NavPageMenu />
-			<SectionHomeBanner />
-			<SectionHomeEnvios />
-			<SectionHomeRastreios />
-			<SectionHomeTranspotter />
-
+			<main>
+				<SectionHomeBanner />
+				<SectionHomeEnvios />
+				<SectionHomeRastreios />
+				<SectionHomeTranspotter />
+			</main>
 			<FooterPage />
 		</div>
 	);

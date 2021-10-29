@@ -27,7 +27,7 @@ const SectionHomeBanner = () => {
 					</div>
 				</div>
 				<div className={'flex flex-col justify-center  items-end'}>
-					<SVGDeliveries icon={true} />
+					<SVGDeliveries />
 				</div>
 			</div>
 		</header>

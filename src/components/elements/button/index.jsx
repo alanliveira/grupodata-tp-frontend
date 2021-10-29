@@ -43,13 +43,15 @@ const Button = ({
 	bgColor = 'bg-tp-purppe',
 	textColor = 'text-tp-yellow',
 	className = '',
+	children,
 	...props
 }) => {
 	return (
 		<button
 			className={` ${bgColor} ${textColor} p-2 rounded-sm text-lg ${className}`}
+			{...props}
 		>
-			Quero rastrear
+			{children}
 		</button>
 	);
 };

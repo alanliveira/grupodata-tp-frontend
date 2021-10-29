@@ -2,6 +2,9 @@ import { ButtonLink } from '../../elements/button';
 import { SubTitle } from '../../elements/headers';
 
 import SVGMobileView from '../../../public/assets/mobile-view.svg';
+import SVGSend from '../../../public/assets/moving_re_pipp.svg';
+import SVGRouter from '../../../public/assets/on_the_way_re_swjt.svg';
+import SVGDelivery from '../../../public/assets/package_arrived_63rf.svg';
 
 const SectionHomeRastreios = () => {
 	return (
