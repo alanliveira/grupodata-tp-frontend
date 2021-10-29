@@ -31,7 +31,7 @@ const SectionHomeRastreios = () => {
 					<ButtonLink
 						bgcolor={'bg-tp-yellow'}
 						textcolor={'text-tp-purppe'}
-						className={'border-none self-center'}
+						className={'border-none xl:self-auto self-center'}
 						url={'/rastrear'}
 					>
 						Quero rastrear
